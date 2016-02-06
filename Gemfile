@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-#for Twitter components, including navbar
+#for Twitter UI components, including navbar
 gem 'bootstrap-sass', '~> 3.3.6'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'
