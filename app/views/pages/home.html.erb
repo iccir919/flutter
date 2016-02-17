@@ -5,28 +5,25 @@
                 <p>stats</p>
             </div>
         </div>
-    </div>
-    <div class= 'col-xs-6'>
         <div class= 'panel panel1-default'>
             <div class= 'panel1-body'>
-                <p>feed</p>
+                <p>trends</p>
             </div>
         </div>
+    </div>
+    <div class= 'col-xs-6'>
+        <% for @p in @posts %>
+        <div class= 'panel panel1-default'>
+            <div class= 'panel1-body'>
+                <p><%= @p.content%></p>
+            </div>
+        </div>
+        <% end %>
     </div>
     <div class= 'col-xs-3'>
         <div class= 'panel panel1-default'>
             <div class= 'panel1-body'>
                 <p>about</p>
-            </div>
-        </div>
-    </div>
-</div>
-<!---BEGIN ROW 2--->
-<div class="row">
-    <div class= 'col-xs-3'>
-        <div class= 'panel panel1-default'>
-            <div class= 'panel1-body'>
-                <p>trends</p>
             </div>
         </div>
     </div>
